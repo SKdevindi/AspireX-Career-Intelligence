@@ -56,6 +56,22 @@ Skill Levels:
 3 = Advanced
 Status
 
+Power BI Report Plan
+
+Page 1: Career Overview
+- Student count
+- Popular career paths
+
+Page 2: Skills Gap Analysis
+- Most common missing skills
+- Skills gap by career
+
+Page 3: Career Readiness
+- Requirements-match score
+- Learning progress
+
+Data Source: Synthetic student dataset
+Status: Planned
 Planned — Technical analysis documents will be added during the project.
 
 
