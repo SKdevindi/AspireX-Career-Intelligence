@@ -45,3 +45,13 @@ Power BI reports may be validated using sample datasets.
 
 Full system UAT will require a working application.
 
+Planned UAT Scenarios
+
+- UAT-001: Select target career
+- UAT-002: Enter current skills
+- UAT-003: Identify missing skills
+- UAT-004: Display requirements-match score
+- UAT-005: View learning recommendations
+
+Status: Not executed
+Note: Proposed test scenarios for a fictional case study.
