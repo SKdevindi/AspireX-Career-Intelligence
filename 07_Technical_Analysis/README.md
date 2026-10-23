@@ -41,7 +41,19 @@ Tools and Technologies
 - Postman (optional)
 - Power BI Desktop
 - GitHub
+Proposed Skills Gap Rules
 
+- BRULE-001: Users select a target career.
+- BRULE-002: Compare current and required skills.
+- BRULE-003: Level 0 means missing skill.
+- BRULE-004: Below required level means improvement needed.
+- BRULE-005: Equal or higher means requirement met.
+
+Skill Levels:
+0 = None
+1 = Basic
+2 = Intermediate
+3 = Advanced
 Status
 
 Planned — Technical analysis documents will be added during the project.
