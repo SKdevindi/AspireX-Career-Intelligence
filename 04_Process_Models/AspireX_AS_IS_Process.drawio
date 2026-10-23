@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="VR8qOWsxPtVwMgiwbJgs">
+    <mxGraphModel dx="1338" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SN_2OONWYXDV089vz9fV-5" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;" target="SN_2OONWYXDV089vz9fV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-1" parent="1" style="rounded=1&#xa;;whiteSpace=wrap;html=1;fontColor=#C662C3;perimeterSpacing=2;strokeColor=#330000;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Student Identifies Target Career&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-6" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;" target="SN_2OONWYXDV089vz9fV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-2" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;fontColor=#C662C3;" value="&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Search for Career Skill Requirements&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-7" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;" target="SN_2OONWYXDV089vz9fV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-3" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;fontColor=#C662C3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Manually Compare Existing Skills&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-11" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;" target="SN_2OONWYXDV089vz9fV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-4" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;fontColor=#C662C3;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Identify Missing Skills&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-18" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="SN_2OONWYXDV089vz9fV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-8" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#330000;fontColor=#C662C3;" value="&lt;font style=&quot;font-size: 17px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Plan Learning Activities&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="280" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-16" edge="1" parent="1" source="SN_2OONWYXDV089vz9fV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="SN_2OONWYXDV089vz9fV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="95" width="95" x="392.5" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="SN_2OONWYXDV089vz9fV-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="95" width="95" x="392.5" y="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
