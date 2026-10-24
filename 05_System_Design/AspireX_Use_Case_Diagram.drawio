@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="zSNVj3AYTWjaZg0jjPbF">
+    <mxGraphModel dx="2289" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tNpYTSa50gNK7iPa4g11-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Student" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Career Guidance&amp;nbsp;&lt;div&gt;Analyst&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-5" parent="1" style="whiteSpace=wrap;html=1;strokeColor=#333333;" value="" vertex="1">
+          <mxGeometry height="990" width="500" x="245" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Manage Skill Profile&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="310" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Select Target career&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="310" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;View Skills Gap Analysis&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;View Recommendations&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Track Learning&amp;nbsp; Progress&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="310" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;View Aggregated Reports&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Register/Login&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="300" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Manage Career Requirements&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="370" x="330" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-19" edge="1" parent="1" source="tNpYTSa50gNK7iPa4g11-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.002;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.021;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" target="tNpYTSa50gNK7iPa4g11-17" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.9688" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="-10" />
+              <mxPoint x="300" y="-210" />
+            </Array>
+            <mxPoint x="400" y="-180" as="sourcePoint" />
+            <mxPoint x="450" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-22" edge="1" parent="1" source="tNpYTSa50gNK7iPa4g11-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="-20" as="sourcePoint" />
+            <mxPoint x="120" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-23" edge="1" parent="1" source="tNpYTSa50gNK7iPa4g11-14" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="tNpYTSa50gNK7iPa4g11-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="-10" />
+            </Array>
+            <mxPoint x="400" y="80" as="sourcePoint" />
+            <mxPoint x="450" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tNpYTSa50gNK7iPa4g11-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="-10" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-27" edge="1" parent="1" source="tNpYTSa50gNK7iPa4g11-16" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="110" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Admin" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="tNpYTSa50gNK7iPa4g11-29" edge="1" parent="1" source="tNpYTSa50gNK7iPa4g11-28" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="tNpYTSa50gNK7iPa4g11-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
