@@ -1,0 +1,227 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="aspirex-erd" name="AspireX ER Diagram">
+    <mxGraphModel dx="1907" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#18223a;" value="AspireX — Entity Relationship Diagram" vertex="1">
+          <mxGeometry height="55" width="1000" x="360" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Student" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="Student" vertex="1">
+          <mxGeometry height="204" width="360" x="55" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   student_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     full_name   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     email   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     password_hash   : VARCHAR(255)" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     date_of_birth   : DATE" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="Student_f5" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     created_at   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fce7f3;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="StudentSkill" vertex="1">
+          <mxGeometry height="177" width="370" x="680" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   student_skill_id   : INT" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   student_id   : INT" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   skill_id   : INT" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     skill_level   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="StudentSkill_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     updated_at   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="Skill" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="Skill" vertex="1">
+          <mxGeometry height="150" width="360" x="1320" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Skill_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   skill_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="Skill_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     skill_name   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Skill_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     category   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="Skill_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     description   : TEXT" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="SkillGapAnalysis" vertex="1">
+          <mxGeometry height="204" width="360" x="55" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   gap_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   student_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   career_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     analysis_date   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     match_score   : DECIMAL(5,2)" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="SkillGapAnalysis_f5" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     summary   : TEXT" vertex="1">
+          <mxGeometry height="26" width="354" x="58" y="647" as="geometry" />
+        </mxCell>
+        <mxCell id="Career" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="Career" vertex="1">
+          <mxGeometry height="177" width="370" x="680" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Career_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   career_id   : INT" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="Career_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     career_name   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="Career_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     description   : TEXT" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="Career_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     industry   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="Career_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     created_at   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="364" x="683" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ede9fe;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="CareerSkillRequirement" vertex="1">
+          <mxGeometry height="177" width="360" x="1320" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   career_skill_req_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   career_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   skill_id   : INT" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     required_level   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="CareerSkillRequirement_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     importance   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="354" x="1323" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fce7f3;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="LearningRecommendation" vertex="1">
+          <mxGeometry height="204" width="470" x="170" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   recommendation_id   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   gap_id   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="894" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     title   : VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="921" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     type   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     url   : VARCHAR(255)" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningRecommendation_f5" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     description   : TEXT" vertex="1">
+          <mxGeometry height="26" width="464" x="173" y="1002" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#64748b;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;spacingTop=9;" value="LearningProgress" vertex="1">
+          <mxGeometry height="231" width="470" x="1080" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="PK   progress_id   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   student_id   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="894" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="FK   recommendation_id   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="921" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     status   : VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     progress_percentage   : INT" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f5" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     started_at   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="1002" as="geometry" />
+        </mxCell>
+        <mxCell id="LearningProgress_f6" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=12;fontFamily=Courier New;fontColor=#1f2937;" value="     completed_at   : DATETIME" vertex="1">
+          <mxGeometry height="26" width="464" x="1083" y="1029" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="Student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="StudentSkill" value="1 to many (student skills)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="Skill" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="StudentSkill" value="1 to many (skill entries)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1175" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="Student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="SkillGapAnalysis" value="1 to many (analyses)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="Career" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="SkillGapAnalysis" value="1 to many (analyses)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="Career" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="CareerSkillRequirement" value="1 to many (requirements)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="Skill" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="CareerSkillRequirement" value="1 to many (requirements)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="SkillGapAnalysis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="LearningRecommendation" value="1 to many (recommendations)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="LearningRecommendation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="LearningProgress" value="1 to many (progress records)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="Student_f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeWidth=2;strokeColor=#64748b;fontSize=12;fontColor=#334155;labelBackgroundColor=#ffffff;" target="LearningProgress" value="1 to many (progress records)">
+          <mxGeometry relative="1" x="-0.0583" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="740" />
+              <mxPoint x="1660" y="740" />
+              <mxPoint x="1660" y="795" />
+              <mxPoint x="1315" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
