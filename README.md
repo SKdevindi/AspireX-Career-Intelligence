@@ -7,8 +7,8 @@ Project Progress
 - [x] Stakeholder Analysis
 - [x] User Personas
 - [x] Business Requirements Document
-- [ ] AS-IS and TO-BE BPMN Diagrams
-- [ ] Use Case Diagram and ERD
+- [x] AS-IS and TO-BE BPMN Diagrams
+- [x] Use Case Diagram and ERD
 - [ ] Figma UI/UX Prototype
 - [ ] Power BI Analytics Report
 - [ ] UAT Test Cases
