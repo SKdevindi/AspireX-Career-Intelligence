@@ -74,5 +74,24 @@ Data Source: Synthetic student dataset
 Status: Planned
 Planned — Technical analysis documents will be added during the project.
 
+## API Requirements
+
+### Overview
+AspireX uses proposed REST APIs to support communication between the frontend and backend.
+
+### Proposed API Endpoints
+
+| Endpoint | Method | Description |
+
+| `/api/auth/login` | POST | Authenticate a student |
+| `/api/students/profile` | GET | Retrieve student profile details |
+| `/api/students/skills` | PUT | Update student skill information |
+| `/api/careers` | GET | Retrieve available career paths |
+| `/api/skill-gap` | POST | Calculate gaps between current and required skills |
+| `/api/recommendations` | GET | Retrieve personalized learning recommendations |
+| `/api/progress` | GET | Retrieve student learning progress |
+
+### Note
+These APIs are proposed requirements for the AspireX system. They have not yet been implemented or tested.
 
 
