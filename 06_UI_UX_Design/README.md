@@ -26,4 +26,4 @@ AspireX is a Career Readiness and Skills Gap Analysis Platform designed to help 
 - Learning recommendations
 - Learning progress tracking
 
-**Project Status:** Interactive UI/UX prototype completed. Backend functionality is not implemented.
+
