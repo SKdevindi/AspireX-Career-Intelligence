@@ -9,7 +9,7 @@ Project Progress
 - [x] Business Requirements Document
 - [x] AS-IS and TO-BE BPMN Diagrams
 - [x] Use Case Diagram and ERD
-- [ ] Figma UI/UX Prototype
+- [x] Figma UI/UX Prototype
 - [ ] Power BI Analytics Report
 - [ ] UAT Test Cases
 - [ ] Final BA Case Study
