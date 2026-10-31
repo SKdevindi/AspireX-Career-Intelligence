@@ -10,8 +10,8 @@ Project Progress
 - [x] AS-IS and TO-BE BPMN Diagrams
 - [x] Use Case Diagram and ERD
 - [x] Figma UI/UX Prototype
-- [ ] Power BI Analytics Report
-- [ ] UAT Test Cases
-- [ ] Final BA Case Study
+- [x] Power BI Analytics Report
+- [x] UAT Test Cases
+- [x] Final BA Case Study
 
 > This is a fictional, simulation-based Business Analysis portfolio project.
